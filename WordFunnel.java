@@ -1,9 +1,9 @@
 import java.io.*;
 import java.util.*;
 /**
-	The OneLessWordMatching program asks the user for a text file containing a word list with each word on a separate line.
+	The WordFunnel program asks the user for a text file containing a word list with each word on a separate line.
 	It then produces the possible variations of the word if 1 letter was removed from it and then checks those combinations
-	against the word list to see which of them actually exist/are other real words. It then returns an array with the combinations
+	against the word list to see which of them actually exist, or in other words, are other real words. It then prints an array with the combinations
 	that are other existing words.
 */
 class WordFunnel{
